@@ -444,6 +444,7 @@ button:focus::after {
 
 .animated-text {
     margin-left: 11%;
+    
 }
 
 .box {
@@ -483,7 +484,7 @@ button:focus::after {
     }
 
     .logo h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 450px) {
