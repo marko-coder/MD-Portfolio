@@ -730,9 +730,53 @@ p {
 
 
 
+@media screen and (max-width: 400px) {
+
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(7) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 15%;
+
+    }
 
 
+    @keyframes typing {
+        from {
+            width: 0;
+        }
 
+        to {
+            width: 7ch;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 12%;
+
+    }
+
+
+    
+}
 
 
 
