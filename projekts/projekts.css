@@ -653,13 +653,25 @@ p {
 
     }
 }
-@media screen and (min-width: 442px) {
+
+@media screen and (max-width: 443px) {
+
     .animated-text {
-        margin-left: 17%;
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 15%;
 
     }
-}
 
+
+
+}
 
 
 @media screen and (max-width: 440px) {
