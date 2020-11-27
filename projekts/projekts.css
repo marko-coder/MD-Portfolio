@@ -662,6 +662,13 @@ p {
 
 
 /*ovde ide skocica loptica kartica*/
+@media screen and (max-width: 480px) {
+    .animated-text {
+        margin-left: 23%;
+        
+
+    }
+}
 
 
 @media screen and (min-width: 444px) {
@@ -704,7 +711,7 @@ p {
 }
 @media screen and (min-width: 500px) {
     .animated-text {
-        margin-left: 20%;
+        margin-left: 22%;
 
     }
 }
