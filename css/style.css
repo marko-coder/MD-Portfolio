@@ -277,7 +277,7 @@
     height: 1.1em;
     word-wrap: break-word;
     white-space: nowrap;
-    animation: typing 3s steps(7) forwards;
+    animation: typing 3s steps(6) forwards;
     font-size: 5em;
 text-shadow: 2px 2px 4px;
     margin-left: 20%;
@@ -291,7 +291,7 @@ text-shadow: 2px 2px 4px;
     }
 
     to {
-        width: 7ch;
+        width: 6ch;
     }
 }
 
@@ -461,7 +461,7 @@ button:focus::after {
 @media screen and (max-width: 420px) {
 
     .animated-text {
-        margin-left: 15%;
+        margin-left: 24%;
         
     }
 
@@ -494,11 +494,11 @@ button:focus::after {
         
     }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 430px) {
 
     .animated-text {
-        margin-left: 19%;
-        
+        margin-left: 29%;
+       
     }
 
     .box {
@@ -532,7 +532,7 @@ button:focus::after {
     margin-left: 28%;
 }
 .box {
-    margin-left: 34%;
+    margin-left: 30%;
 }
 
 
@@ -618,7 +618,7 @@ button:focus::after {
 .opis3 {
     max-width: 26%;
     margin-left: 36%;
-    margin-top: -30%;
+    margin-top: -32%;
     margin-bottom: 100px;
     
 }
@@ -634,6 +634,82 @@ button:focus::after {
 .footer {
     text-align: center;
 }
+
+}
+@media screen and (min-width: 1350px) {
+    .lebenslauf {
+        text-align: right;
+        margin-left: 20px;
+        max-width: 25%;
+        float: left;
+        margin-top: 110px;
+    }
+
+    .info {
+        max-width: 40%;
+        margin-left: 400px;
+
+
+
+
+    }
+
+    .animated-text {
+        margin-left: 42%;
+        max-width: 30%;
+
+    }
+
+    .box {
+        margin-left: 43%;
+        max-width: 20%;
+
+    }
+
+    .opis {
+        max-width: 22%;
+        float: right;
+        margin-top: -490px;
+
+
+    }
+
+    .wrap {
+        max-width: 30%;
+        margin-left: 37%;
+        margin-bottom: 80px;
+    }
+
+    .opis2 {
+        max-width: 25%;
+        margin-bottom: 250px;
+        
+
+
+    }
+
+    .opis3 {
+        max-width: 26%;
+        margin-left: 36%;
+        margin-top:-39%;
+       
+        
+
+    }
+
+    .opis4 {
+        max-width: 29%;
+        margin-left: 70%;
+        
+        height: 270px;
+        border-radius: 30px;
+
+
+    }
+
+    .footer {
+        text-align: center;
+    }
 
 }
 
@@ -692,15 +768,15 @@ button:focus::after {
 .opis3 {
     max-width: 24%;
     margin-left: 38%;
-    margin-top: -25%;
+    margin-top: -27%;
 
 }
 
 .opis4 {
     max-width: 24%;
     margin-left: 74%;
-    margin-top: -26%;
-    height: 280px;
+    margin-top: -28%;
+    height: 290px;
     border-radius: 30px;
 
 }
@@ -760,8 +836,9 @@ button:focus::after {
 
 .opis2 {
     max-width: 25%;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     margin-left: 2%;
+    margin-top: 40px;
 
 
 }
@@ -769,7 +846,7 @@ button:focus::after {
 .opis3 {
     max-width: 24%;
     margin-left: 38%;
-    margin-top: -23%;
+    margin-top: -20%;
 
 }
 
@@ -913,22 +990,22 @@ button:focus::after {
     max-width: 25%;
     margin-bottom: 80px;
     margin-left: 2%;
-
+ margin-top: 40px;
 
 }
 
 .opis3 {
     max-width: 24%;
     margin-left: 38%;
-    margin-top: -18%;
+    margin-top: -19%;
 
 }
 
 .opis4 {
-    max-width: 24%;
+   
     margin-left: 74%;
-    margin-top: -21%;
-    height: 250px;
+ margin-top: -21%;
+    
     border-radius: 30px;
 
 }
@@ -987,8 +1064,9 @@ button:focus::after {
 
 .opis2 {
     max-width: 25%;
-    margin-bottom: 80px;
+    
     margin-left: 2%;
+      
 
 
 }
@@ -996,7 +1074,7 @@ button:focus::after {
 .opis3 {
     max-width: 23%;
     margin-left: 38%;
-    margin-top: -17%;
+    margin-top: -18%;
 
 }
 
@@ -1036,7 +1114,7 @@ button:focus::after {
 }
 
 .animated-text {
-    margin-left: 44%;
+    margin-left: 45%;
     max-width: 30%;
 
 }
@@ -1072,14 +1150,14 @@ button:focus::after {
 .opis3 {
     max-width: 23%;
     margin-left: 40%;
-    margin-top: -16%;
+    margin-top: -17%;
 
 }
 
 .opis4 {
     max-width: 22%;
     margin-left: 76%;
-    margin-top: -17%;
+    margin-top: -18%;
     height: 230px;
     border-radius: 30px;
 
