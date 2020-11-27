@@ -275,6 +275,21 @@ margin-bottom: 50px;
     }
 
 }
+@media screen and (max-width: 600px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 4em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 23%;
+
+    }
+
+}
 @media screen and (max-width: 500px) {
     .animated-text {
         font-family: monospace;
@@ -300,7 +315,7 @@ margin-bottom: 50px;
         animation: typing 3s steps(11) forwards;
         font-size: 4em;
         text-shadow: 2px 2px 4px;
-        margin-left: 3%;
+        margin-left: 12%;
 
     }
 
@@ -315,7 +330,7 @@ margin-bottom: 50px;
         animation: typing 3s steps(11) forwards;
         font-size: 4em;
         text-shadow: 2px 2px 4px;
-        margin-left: 2%;
+        margin-left: 10%;
 
     }
 
