@@ -113,7 +113,7 @@
 }
 
 .logo h1 {
-    color: blue;
+    color: rgb(67, 68, 6);
     margin-right: 15px;
     font-family: 'Texturina',
         serif;
@@ -246,7 +246,7 @@
 
 .opis4 {
     text-align: center;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A);
+    background: linear-gradient(-45deg, #a4af45, #bbca33, rgb(244, 248, 7));
     width: 90%;
     height: 200px;
     margin-top: 40px;
