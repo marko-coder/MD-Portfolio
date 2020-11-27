@@ -440,7 +440,7 @@ button:focus::after {
 /* do ovde ide dugme za download*/
 
 /* ovde udu media query za razne velicine*/
-@media screen and (max-width: 332px) {
+@media screen and (min-width: 332px) {
 
 .animated-text {
     margin-left: 11%;
@@ -454,6 +454,9 @@ button:focus::after {
 }
 }
 /* ovde udu media query za razne velicine ovde je samo jedna bas mala za male telefone*/
+
+    
+
 @media screen and (max-width: 420px) {
 
     .animated-text {
@@ -461,7 +464,7 @@ button:focus::after {
     }
 
     .box {
-        margin-left: 18%;
+        margin-left: 25%;
     }
 
     .logo h1 {
@@ -475,14 +478,14 @@ button:focus::after {
     }
 
     .box {
-        margin-left: 18%;
+        margin-left: 22%;
     }
 
     .logo h1 {
         font-size: 35px;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
 
     .animated-text {
         margin-left: 15%;
