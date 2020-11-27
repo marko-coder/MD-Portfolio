@@ -482,6 +482,20 @@ button:focus::after {
         font-size: 35px;
     }
 }
+@media screen and (max-width: 450px) {
+
+    .animated-text {
+        margin-left: 18%;
+    }
+
+    .box {
+        margin-left: 15%;
+    }
+
+    .logo h1 {
+        font-size: 35px;
+    }
+}
 
 @media screen and (min-width: 500px) {
 
