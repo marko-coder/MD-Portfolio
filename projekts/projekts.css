@@ -775,7 +775,7 @@ p {
     .animated-text {
         font-family: monospace;
         overflow: hidden;
-        height: 1.1em;
+        height: 1.2em;
         word-wrap: break-word;
         white-space: nowrap;
 
