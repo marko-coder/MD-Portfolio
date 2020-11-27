@@ -131,10 +131,10 @@
     height: 1.1em;
     word-wrap: break-word;
     white-space: nowrap;
-    animation: typing 3s steps(6) forwards;
-    font-size: 5em;
+    animation: typing 3s steps(11) forwards;
+    font-size: 6em;
     text-shadow: 2px 2px 4px;
-    margin-left: 43%;
+    margin-left: 38%;
 
 }
 
@@ -144,7 +144,7 @@
     }
 
     to {
-        width: 6ch;
+        width: 11ch;
     }
 }
 
@@ -187,121 +187,195 @@ margin-bottom: 50px;
 
 }
 
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotate(-360deg);
 
+    }
 
-
-@media screen and (max-width: 440px){
-
-.animated-text {
-    font-family: monospace;
-    overflow: hidden;
-    height: 1.1em;
-    word-wrap: break-word;
-    white-space: nowrap;
-    animation: typing 3s steps(6) forwards;
-    font-size: 5em;
-    text-shadow: 2px 2px 4px;
-    margin-left: 23%;
-
-}
-
-}
-@media screen and (max-width: 376px){
-    .znanje li {
-        background-color: rgb(196, 204, 78);
-        font-size: 1em;
-
-
+    to {
+        opacity: 1;
+        transform: rotate(0);
 
     }
 }
-@media screen and (max-width: 800px){
-.animated-text {
-    font-family: monospace;
-    overflow: hidden;
-    height: 1.1em;
-    word-wrap: break-word;
-    white-space: nowrap;
-    animation: typing 3s steps(6) forwards;
-    font-size: 5em;
-    text-shadow: 2px 2px 4px;
-    margin-left: 35%;
 
+.container img {
+    animation: transitionIn 5s;
 }
-}
-@media screen and (max-width: 600px) {
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
     .animated-text {
         font-family: monospace;
         overflow: hidden;
         height: 1.1em;
         word-wrap: break-word;
         white-space: nowrap;
-        animation: typing 3s steps(6) forwards;
+        animation: typing 3s steps(11) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 35%;
+
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
         font-size: 5em;
         text-shadow: 2px 2px 4px;
         margin-left: 30%;
 
     }
-}
-    @media screen and (max-width: 480px) {
-        .animated-text {
-            font-family: monospace;
-            overflow: hidden;
-            height: 1.1em;
-            word-wrap: break-word;
-            white-space: nowrap;
-            animation: typing 3s steps(6) forwards;
-            font-size: 5em;
-            text-shadow: 2px 2px 4px;
-            margin-left: 25%;
 
-        }
+}
+@media screen and (max-width: 900px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 25%;
 
     }
-        @media screen and (max-width: 420px) {
-            .animated-text {
-                font-family: monospace;
-                overflow: hidden;
-                height: 1.1em;
-                word-wrap: break-word;
-                white-space: nowrap;
-                animation: typing 3s steps(6) forwards;
-                font-size: 5em;
-                text-shadow: 2px 2px 4px;
-                margin-left: 18%;
 
-            }
-
-        }
-           @media screen and (max-width: 430px) {
-               .animated-text {
-                   font-family: monospace;
-                   overflow: hidden;
-                   height: 1.1em;
-                   word-wrap: break-word;
-                   white-space: nowrap;
-                   animation: typing 3s steps(6) forwards;
-                   font-size: 5em;
-                   text-shadow: 2px 2px 4px;
-                   margin-left: 21%;
-
-               }
-
-           }
-        
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: rotate(-360deg);
-        
-    }
-    to {
-        opacity: 1;
-        transform: rotate(0);
-        
-    }
 }
-.container img {
-    animation: transitionIn 5s;
+@media screen and (max-width: 700px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 20%;
+
+    }
+
 }
-    
+@media screen and (max-width: 500px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 6%;
+
+    }
+
+}
+@media screen and (max-width: 440px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 3%;
+
+    }
+
+}
+@media screen and (max-width: 415px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 5em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 2%;
+
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 4em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 8%;
+
+    }
+    .znanje {
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width: 350px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 4em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 4%;
+
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .animated-text {
+        font-family: monospace;
+        overflow: hidden;
+        height: 1.1em;
+        word-wrap: break-word;
+        white-space: nowrap;
+        animation: typing 3s steps(11) forwards;
+        font-size: 4em;
+        text-shadow: 2px 2px 4px;
+        margin-left: 1%;
+
+    }
+    .logo h1 {
+        font-size: 35px;
+    }
+
+}
+
+
+
+
+
+
+
+
