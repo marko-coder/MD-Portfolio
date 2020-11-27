@@ -475,7 +475,7 @@ button:focus::after {
 @media screen and (max-width: 400px) {
 
     .animated-text {
-        margin-left: 18%;
+        margin-left: 15%;
     }
 
     .box {
