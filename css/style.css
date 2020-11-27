@@ -486,11 +486,11 @@ button:focus::after {
         font-size: 35px;
     }
 }
-@media screen and (min-width: 410px) {
+@media screen and (min-width: 450px) {
 
     .animated-text {
-        margin-left: 15%;
-
+        margin-left: 19%;
+        
     }
 
 @media screen and (min-width: 450px) {
@@ -1091,4 +1091,4 @@ button:focus::after {
 
 
 }
-/* ovde udu media query za razne velicine*/
+}
