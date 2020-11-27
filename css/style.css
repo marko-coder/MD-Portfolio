@@ -486,11 +486,11 @@ button:focus::after {
         font-size: 35px;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
 
     .animated-text {
-        margin-left: 15%;
-        margin-top: 100px;
+        margin-left: 19%;
+        
     }
 
     .box {
@@ -504,6 +504,14 @@ button:focus::after {
 @media screen and (max-width: 480px) {
     .animated-text {
         margin-left: 23%;
+
+
+
+    }
+}
+@media screen and (max-width: 430px) {
+    .animated-text {
+        margin-left: 19%;
 
 
 
