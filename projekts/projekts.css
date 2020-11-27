@@ -654,7 +654,7 @@ p {
     }
 }
 
-@media screen and (max-width: 443px) {
+@media screen and (min-width: 443px) {
 
     .animated-text {
         font-family: monospace;
@@ -674,12 +674,12 @@ p {
 }
 
 
-@media screen and (max-width: 440px) {
+@media screen and (min-width: 440px) {
     .animated-text{
         margin-left: 15%;
     }
 }
-@media screen and (max-width: 380px) {
+@media screen and (min-width: 380px) {
     .animated-text {
         margin-left: 13%;
         
