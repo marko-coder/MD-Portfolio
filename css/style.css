@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 /*odavde ide nav menu*/
 #menuToggle {
     display: block;
@@ -458,7 +454,20 @@ button:focus::after {
 }
 }
 /* ovde udu media query za razne velicine ovde je samo jedna bas mala za male telefone*/
+@media screen and (max-width: 420px) {
 
+    .animated-text {
+        margin-left: 19%;
+    }
+
+    .box {
+        margin-left: 18%;
+    }
+
+    .logo h1 {
+        font-size: 35px;
+    }
+}
 
 @media screen and (min-width: 500px) {
 
